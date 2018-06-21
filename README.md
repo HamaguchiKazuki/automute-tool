@@ -1,6 +1,11 @@
 # osx-automute-tool
 
-# install
+# Overview
+Automute will automatically mute the volume.
+The first argument takes the seconds.
+The second argument is whether to put the PC in sleep mode.
+
+## install
 write follow command to your `.bash_profile` or `.zshrc`
 
 `alias automute='bash [path to clone dir]/automute.sh'`
@@ -8,10 +13,11 @@ write follow command to your `.bash_profile` or `.zshrc`
 ## example
 `alias automute='bash ~/osx-automute-tool/automute.sh'`
 
-# usage example
-`automute 123s`
+## usage
+`automute <seconds> [-s]`
 
-`automute 123m`
+## usage example
+`automute 300`
 
-`automute 123h`
+`automute 3600 -s`
 
