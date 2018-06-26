@@ -5,7 +5,8 @@ if [ "${2}" = ${sleep_flag} ]; then
   echo "after ${1} seconds, this pc sleepmode..."
 fi
 sleep $1
-osascript -e 'set volume with output muted'
+osascript -e "set volume 0/100*7"
+echo "it was muted..."
 if [ "${2}" = ${sleep_flag} ]; then
   osascript -e 'tell application "Finder" to sleep'
 fi
