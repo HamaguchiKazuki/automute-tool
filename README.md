@@ -1,4 +1,4 @@
-# osx-automute-tool
+# automute-tool
 
 # Overview
 Automute will automatically mute the volume.
